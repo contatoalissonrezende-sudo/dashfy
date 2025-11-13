@@ -5,7 +5,6 @@ export interface User {
   password: string;
   role: 'attendant' | 'admin';
   commission?: number; // Porcentagem de comissão (ex: 5 para 5%)
-  company: string;
 }
 
 export interface Sale {
